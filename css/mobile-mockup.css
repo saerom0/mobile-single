@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+
+	/* padding: 0; */
+}
+body {
+	margin: 0;
+	height: 100vh;
+}
+.mockup-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 50px 0;
+	gap: 110px;
+}
+
+.mobile-mockup {
+	position: relative;
+	width: 400px;
+	height: 800px;
+	border-radius: 40px;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iframe-url {
+	background-color: #fff;
+	width: calc(400px - 20px);
+	height: calc(800px - 26px);
+	border-radius: 35px;
+	overflow: hidden;
+}
+.iframe-url iframe {
+	width: 100%;
+	height: 100%;
+}
+
+/* camera */
+
+.camera {
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -9px;
+	width: 18px;
+	height: 18px;
+	background-color: #000;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.camera span {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #333;
+}
+
+/* volume and power button */
+.mobile-btns {
+	position: absolute;
+	top: 120px;
+	right: -3px;
+	width: 3px;
+	height: 180px;
+}
+
+.mobile-btns span {
+	position: absolute;
+	width: 3px;
+	right: 0;
+	background-color: #000;
+	border-radius: 0 3px 3px 0;
+	border-left: 1px solid #333;
+}
+.mobile-btns span:nth-child(1) {
+	top: 0;
+	height: 90px;
+}
+.mobile-btns span:nth-child(2) {
+	top: 125px;
+	height: 60px;
+}

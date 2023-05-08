@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goods Detail - Today's Meal Kit</title>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- Custom CSS & JS -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/custom.js"></script>
+  <!-- slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+
+<body>
+
+  <div class="container goods-detail">
+    <!-- Goods-detail-header include -->
+    <div class="goods-detail-header-include"></div>
+    <!-- Goods-detail-header include -->
+    <div class="goods-detail-content">
+      <div class="goods-detail-slider-outer">
+        <div class="goods-detail-slider">
+          <a href="#"><img src="images/goods-detail-03.jpg" alt="goods detail slider image"></a>
+          <a href="#"><img src="images/goods-detail-02.jpg" alt="goods detail slider image"></a>
+          <a href="#"><img src="images/goods-detail-01.jpg" alt="goods detail slider image"></a>
+          <a href="#"><img src="images/goods-detail-04.jpg" alt="goods detail slider image"></a>
+        </div>
+        <button class="btn-share"><i class="bi bi-share-fill"></i></button>
+      </div>
+      <div class="goods-info">
+        <div class="goods-rating">
+          <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <em>(53)</em>
+          </div>
+        </div>
+        <div class="goods-badge">
+          <span class="badge new">NEW</span>
+          <span class="badge hot">HOT</span>
+        </div>
+        <div class="goods-title">
+          <h3>간편하게 해먹는 고소한 알리오 올리오, 해물 가득한 스파게티 등 양식 밀키트 4종세트 골라담기</h3>
+          <div>
+            <span>20%</span><b>14,400원</b><s>18,000원</s>
+          </div>
+        </div>
+        <div class="goods-delivery-info">
+          <b>배송정보</b>
+          <p>
+            <span>3만원 이상 구매시 무료 배송</span>
+            <span class="delivery-date">내일 <b class="month"></b>/<b class="date"></b> 도착 예정<em>(평균 배송소요일
+                1~2일)</em></span>
+            <span>제주, 도서, 산간 지역 5,000원 추가</span>
+          </p>
+        </div>
+      </div>
+      <div class="goods-detail-desc">
+        <img src="images/goods-detail-focus-01.png" alt="">
+        <p>입 안에 가득 퍼지는 풍부한 바다 향과 스파케티의 다채로운 2가지 맛의 콤비네이션</p>
+        <img src="images/goods-detail-03.jpg" alt="">
+        <p>우스터소스, 간장, 꿀, 레드 와인 식초로 맛을 낸 마리네이드 소스는 풍미를 더해줄 뿐만 아니라 오징어의 식감을 더욱 부드럽게 만들어줍니다.</p>
+        <img src="images/goods-detail-02.jpg" alt="">
+        <img src="images/goods-detail-focus-02.png" alt="">
+        <img src="images/goods-detail-01.jpg" alt="">
+        <p>오늘 메뉴는 아이들이 좋아하는 오징어 토마토 스파게티를 만들어 주세요. 입에서 살살 녹는 <br>Today's Meal Kit 토마토 오징어 스파게티</p>
+      </div>
+      <div class="goods-accordion">
+        <div class="title active">
+          상품후기(45)
+        </div>
+        <div class=" detail">
+          <img src="images/goods-detail-accordion-content-01.png">
+        </div>
+        <div class="title">
+          상품문의
+        </div>
+        <div class="detail">
+          <img src="images/goods-detail-accordion-content-02.png">
+        </div>
+        <div class="title">
+          배송안내
+        </div>
+        <div class="detail">
+          <img src="images/goods-detail-accordion-content-03.png">
+        </div>
+        <div class="title">
+          교환 및 반품안내
+        </div>
+        <div class="detail">
+          <img src="images/goods-detail-accordion-content-04.png">
+        </div>
+      </div>
+    </div>
+    <div class="goods-order-info">
+      <div class="goods-order-choice">
+        <span class="wish"></span>
+        <button class="btn-primary btn-order-choice">구매하기</button>
+      </div>
+      <div class="goods-order-final">
+        <button class="btn-fold"><i class="bi bi-chevron-down"></i></button>
+        <div class="goods-order-final-info">
+          <span class="info-badge arrival">내일도착</span>
+          <div class="goods-title">
+            <h3>간편하게 해먹는 고소한 알리오 올리오, 해물 가득한 스파게티 등 양식 밀키트 4종세트 골라담기</h3>
+            <div>
+              <span>20%</span><b>14,400원</b><s>18,000원</s>
+              <div class="count-wrap">
+                <button type="button" class="minus">-</button>
+                <input type="text" class="input" value="1"
+                  oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+                <button type="button" class="plus">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="payment-benefit">
+          <b>결제 혜택</b>
+          <p>하나카드 5만원 결제 시 최대 8개월 무이지 할부
+            PAYCO 생애 첫 결제 시 2,000원 즉시 할인<br>
+            <a href="#">더보기</a>
+          </p>
+        </div>
+        <div class="goods-order-btns">
+          <button class="btn-primary btn-cart">장바구니</button>
+          <button class="btn-primary btn-now-order">바로구매</button>
+        </div>
+      </div>
+    </div>
+    <div class="overlay-fold"></div>
+  </div>
+
+</body>
+
+</html>
